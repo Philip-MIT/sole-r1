@@ -315,7 +315,20 @@ video::-webkit-media-controls-panel {
   filter: invert(1) hue-rotate(180deg);
 }
 
+.conference-banner {
+  display: inline-block;
+  margin-top: -8px;
+  margin-bottom: 22px;
+  padding: 8px 20px;
 
+  background: #fff4e8;
+  border: 1px solid #f0b36a;
+  border-radius: 8px;
+
+  font-size: 20px;
+  font-weight: 600;
+  color: #9a4f00;
+}
     </style>
   </head>
   <body>
@@ -332,6 +345,10 @@ video::-webkit-media-controls-panel {
               SOLE-R1: Video-Language Reasoning as the <br>
               Sole Reward for On-Robot RL
               </h1>
+              <div class="conference-banner">
+                Will be presented at NeurIPS 2026!
+              </div>
+              
 
              
 
@@ -1170,7 +1187,7 @@ function updateLevelOptions() {
             </div>
         </div>
 
-  <script>
+  <!-- <script>
   function isSafari() {
     const ua = navigator.userAgent;
     return /^((?!chrome|android).)*safari/i.test(ua);
@@ -1186,7 +1203,7 @@ function updateLevelOptions() {
       img.src = "./static/rover_gif3_v3.gif";
     }
   });
-</script>
+</script> -->
     </body>
   </section>
 
